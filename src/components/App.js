@@ -12,7 +12,7 @@ const App = ()=> {
     <>
       <div className="container-fluid">
         <EventForm state={state} dispatch={dispatch}/>
-        <Events state={state} dispatch={dispatchs}/>
+        <Events state={state} dispatch={dispatch}/>
       </div>
     </>
   );
